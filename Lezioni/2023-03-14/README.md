@@ -1,6 +1,6 @@
 # Spaghetti Code
 
-Spaghetti Code è un antipattern, i metodi sviluppati in data 09/03/2023 è **monolitico** ovvero fa troppe cose in un unico flusso (calcola infatti in un solo metodo la somma dei numeri letti ed il massimo).
+Spaghetti Code è un antipattern, i metodi sviluppati in data 09/03/2023 sono **monolitici** ovvero fanno troppe cose in un unico flusso (calcolano infatti in un solo metodo la somma dei numeri letti ed il massimo).
 Non è quindi OO (Object-Oriented) e non è riutilizzabile.
 
 ## Caratteristiche dello Spaghetti Code
