@@ -56,7 +56,7 @@ per la comprensione, il riuso, l’ereditarietà (OOP).
 * **Astrazioni:** lo sviluppatore OOP costruisce astrazioni. Il nome delle
 astrazioni è estremamente importante: **il nome che si dà a classi e metodi ne descrive l’obiettivo**.
 
-## DRY: Dont Repeat Yourself
+## DRY: Don't Repeat Yourself
 Tecnica di programmazione che si adotta per evitare di scrivere codice con ripetizioni.
 
 ## KISS: Keep It Super Simple
