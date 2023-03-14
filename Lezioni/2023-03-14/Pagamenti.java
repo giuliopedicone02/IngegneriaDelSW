@@ -90,22 +90,4 @@ public class Pagamenti {
         return importiLetti.get(indice);
     }
 
-    public static void main(final String[] args) {
-        Pagamenti p = new Pagamenti();
-        p.svuota();
-
-        try {
-            p.leggiFile("./", "importi.txt");
-        } catch (IOException e) {
-            e.printStackTrace();
-        }
-
-        p.converti();
-        p.calcolaSomma();
-        p.calcolaMassimo();
-
-        System.out.println("Dimensione: " + p.getDimens());
-        System.out.println("Massimo: " + p.getMassimo());
-        System.out.println("Totale: " + p.getSomma());
-    }
 }
