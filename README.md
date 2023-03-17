@@ -6,7 +6,8 @@
 
 Repository creata a scopo didattico per essere utilizzata come backup dei file creati a lezione.
 
-* Cartella Lezioni: Comprende gli appunti presi durante le lezioni sugli argomenti del corso.
+* **Cartella Lezioni:** Comprende gli appunti presi durante le lezioni sugli argomenti del corso.
+* **Cartella Esercizi:** Comprende esercizi presenti nelle slide, svolti in classe o durante il [tutorato](https://github.com/TendTo/Tutorato-Ingegneria-del-Software).
 
 ## Authors
 
