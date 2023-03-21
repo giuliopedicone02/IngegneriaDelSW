@@ -64,7 +64,7 @@ public interface IAccount
 ```
 
 <p align="center">
-    <img src="./img/Interface.png">
+    <img src="./img/Interface.PNG">
 </p>
 
 ## Classi ed Interfacce
@@ -137,8 +137,8 @@ public class MainEsami {
 ```
 
 <p align="center">
-    <img src="./img/Sequenza.png">
-    <img src="./img/Sequenza2.png">
+    <img src="./img/Sequenza.PNG">
+    <img src="./img/Sequenza2.PNG">
 </p>
 
 **Nota Bene:** s:Studente indicano rispettivamente nome dell'istanza (s) e nome della Classe (Studente).
