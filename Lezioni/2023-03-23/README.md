@@ -101,3 +101,106 @@ Studente s = (Studente) p; //ERRORE! p in questo caso sia a compile time che a r
 
 ```
 
+# Design Pattern
+
+Sono **strutture software** (ovvero microarchitetture) per un piccolo numero di classi che descrivono
+soluzioni di successo per problemi ricorrenti.
+
+## Perchè usare i Design pattern?
+
+* Aiutano i **principianti** ad agire come se fossero **esperti**.
+* Supportano gli **esperti** nella progettazione su **grande scala**.
+* Evitano di re-inventare concetti e soluzioni, **riducendo il costo**.
+* **Forniscono un vocabolario** comune e permettono una comprensione dei principi del design.
+* Analizzano le loro proprietà non-funzionali: ovvero, come una
+funzionalità è realizzata.
+    Esempi:
+    * affidabilità;
+    * modificabilità;
+    * sicurezza;
+    * testabilità;
+    * riuso.
+
+## Descrizione di un pattern
+
+* **Nome:** permette di identificare il design pattern con una parola e di
+lavorare con un alto livello di astrazione, indica lo scopo del pattern
+* **Intento:** descrive brevemente le funzionalità e lo scopo
+* **Problema** (Motivazione + Applicabilità): descrive il problema a cui il
+pattern è applicato e le condizioni necessarie per applicarlo
+* **Soluzione:** descrive gli elementi (classi) che costituiscono il design
+pattern, le loro responsabilità e le loro relazioni
+* **Conseguenze:** indicano risultati, compromessi, vantaggi e svantaggi
+nell'uso del design pattern
+* **Esempi di utilizzo:** illustrano dove il design pattern è stato usato
+* **Codice:** fornisce porzioni di codice che lo implementano
+
+## Tipologie di un design pattern
+
+I design pattern sono organizzati sul catalogo  in base allo scopo.
+
+* **Creazionali:** riguardano la creazione di istanze
+    * Singleton, 
+    * Factory Method, 
+    * Abstract Factory 
+    * Builder 
+    * Prototype
+
+* **Strutturali:** riguardano la scelta della struttura
+    * Adapter 
+    * Facade 
+    * Composite 
+    * Decorator 
+    * Bridge 
+    * Flyweight
+    * Proxy
+
+* **Comportamentali:** riguardano la scelta dell’incapsulamento di
+algoritmi
+
+    * Iterator 
+    * Template Method 
+    * Mediator
+    * Observer
+    * State
+    * Strategy
+    * Chain of Responsibility
+    * Command
+    * Interpreter
+    * Memento
+    * Visitor
+
+## Design Pattern Creazionali
+
+Permettono di **astrarre il processo di creazione oggetti**: rendono un sistema indipendente da come i suoi oggetti sono creati,
+composti, e rappresentati.
+
+**Nascondono come le istanze delle classi sono create e composte**
+
+# Desing Pattern Factory Method
+
+**Intento**
+
+    Definire una interfaccia per creare un oggetto, ma lasciare che le sottoclassi decidano quale classe istanziare.
+    
+    Factory Method permette ad una classe di rimandare l’istanziazione alle sottoclassi.
+
+**Problema**
+
+    Un framework usa classi astratte per definire e mantenere relazioni tra oggetti. 
+    Il framework deve creare oggetti ma
+    conosce solo classi astratte che non può istanziare.
+
+    Un metodo responsabile per l’istanziazione (detto factory, ovvero fabbricatore) incapsula la conoscenza su quale classe creare.
+
+**Soluzione**
+
+* **Product:** Interfaccia comune a tutti gli oggetti
+* **ConcreteProduct:** Implementazione di Product
+* **Creator:** dichiara il **factoryMethod()** e ritorna un oggetto di tipo Product.
+* **ConcreteCreator:** implementa **factoryMethod()** anche tramite override, sceglie quale ConcreteProduct istanziare e ritorna tale istanza.
+
+<p align="center">
+    <img src="./img/UMLFactory.PNG">
+    <img src="./img/UMLSequenzialeFactory.PNG">
+</p>
