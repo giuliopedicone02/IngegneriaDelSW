@@ -2,7 +2,7 @@
 
 **Intento**
 
-   Fornire un’interfaccia unificata al posto di un insieme di
+    Fornire un’interfaccia unificata al posto di un insieme di
     interfacce in un sottosistema (consistente di un insieme di classi).
     Definire un'interfaccia di alto livello (semplificata) che rende il
     sottosistema più facile da usare.
