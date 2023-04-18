@@ -61,4 +61,4 @@ istruzioni if o switch) sulla classe che implementa i comportamenti.
 Tale separazione aiuta ad evitare stati inconsistenti, poiché i
 cambiamenti di stato vengono decisi da una sola classe e non da
 tante
-* Il numero di classi totale è maggiore, le classi sono più semplici
+* Il numero di classi totale è maggiore, le classi sono più **semplici**
