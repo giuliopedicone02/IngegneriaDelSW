@@ -1,7 +1,7 @@
 public class Main {
     public static void main(String[] args) {
-        Node tree = BinaryTree.getInstance();
-        Node tree2 = BinaryTree.getInstance();
+        Node tree = new BinaryTree();
+
         // Inserimento di valori
         tree.insert(50);
         tree.insert(30);
@@ -17,7 +17,7 @@ public class Main {
 
         // Visita preorder
         System.out.print("Visita Preorder: ");
-        tree2.preOrder();
+        tree.preOrder();
         System.out.println();
     }
 }
